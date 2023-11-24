@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.all-content{
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px;
+}
+
+.intro{
+    color: aliceblue;
+}
+
+.intro h1{
+    font-size: xx-large;
+}
+
+.lef{
+    background-color: aliceblue;
+}
+
+.days button{
+    background-color: hsl(248, 32%, 49%);
+    width: 110%;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px;
+    box-shadow:  0px 8px rgba(99, 99, 99, 0.308);
+    color: aliceblue;
+}
+.days button .try{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.days span{
+    font-weight:initial;
+}
+section .registration{
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 110%;
+    box-shadow:  0px 8px rgba(99, 99, 99, 0.308);
+}
+
+input{
+    width: 350px;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 8px;
+    box-shadow: 2px;
+    margin-left: 50px;
+    border-color:hsl(245, 24%, 90%);
+    opacity: 0.5;
+    font-weight: bold;
+    
+    
+}
+
+.free button{
+    width: 380px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px;
+    box-shadow: 2px;
+    background-color: hsl(154, 59%, 51%);
+    color: aliceblue; 
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.free p {
+    color: hsl(246, 25%, 77%);
+    font-size: 11px;
+    font-family:'Poppins';
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.free span{
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+}
+.error {
+    color: red;
+    display: flex;
+    margin-left: 50%;
+    font-size:small;
+    font-style: italic;
+    
+}
+
+
+@media (max-width: 800px){
+    body{
+        background-image: url('images/bg-intro-mobile.png');
+    }
+    .all-content{
+        display: flex;
+        flex-direction: column;
+        height: 25%;
+        
+    }
+    .intro h1 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+    .intro p{
+        text-align: center;
+        margin-left: 30px;
+    }
+    .intro{
+        width: 300px;
+        padding: 30px;
+        margin-top: -90px;
+    }
+
+    .days button{
+        width: 90%;
+        margin-left: 9%;
+        padding: 40px;
+        font-size: 17px;
+    }
+    section .registration{
+        width: 45vh;
+        margin-left: 40px;
+    }
+
+    input{
+        width: 70%;
+        margin-left: 20px;
+        margin-left: 10%;
+    }
+    .free button{
+        margin-right: 50%;
+        width: 70%;
+        padding: 20px;
+    }
+    footer{
+        margin-left: 10%;
+    }
+
+}
